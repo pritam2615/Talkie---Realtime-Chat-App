@@ -21,7 +21,6 @@ app.use(
 
 const PORT = process.env.PORT;
 connectDB();
-const __dirname = path.resolve();
 
 app.use("/api/auth", authRoutes);
 app.use("/api/messages", messageRoutes);
